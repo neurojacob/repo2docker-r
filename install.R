@@ -3,3 +3,12 @@ install.packages("rmarkdown")
 install.packages("httr")
 install.packages("shinydashboard")
 install.packages('leaflet')
+
+install.packages('Seurat')
+install.packages('ggplot2')
+install.packages('sets')
+install.packages('ComplexHeatmap')
+
+
+
+
