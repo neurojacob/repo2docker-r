@@ -234,7 +234,7 @@ jobs:
       - run: *install
       - add_ssh_keys: 
           fingerprints: 
-            - "d4:37:a4:3b:1e:ea:eb:6a:b7:e3:0a:52:e2:8c:ac:d0"
+      - "1c:3d:1d:c0:1f:3e:2d:71:3e:23:54:cf:d1:55:13:b1"
       - run:
           name: Generate Inspection Manifest
           no_output_timeout: 40m
