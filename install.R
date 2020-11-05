@@ -1,13 +1,13 @@
 install.packages('devtools')
-install.packages('BiocManager')
+#install.packages('BiocManager')
 install.packages('sets')
-library('BiocManager')
+#library('BiocManager')
 require('devtools')
 install_version("ggplot2", version = "3.3.2", repos = "http://cran.us.r-project.org")
 
 install_version("ggpubr", version = "0.4.0", repos = "http://cran.us.r-project.org")
 install_version("gplots", version = "3.1.0", repos = "http://cran.us.r-project.org")
-BiocManager::install("ComplexHeatmap")
+#BiocManager::install("ComplexHeatmap")
 install_version("ggthemes", version = "4.2.0", repos = "http://cran.us.r-project.org")
 install_version("Seurat", version = "3.2.2", repos = "http://cran.us.r-project.org")
 
