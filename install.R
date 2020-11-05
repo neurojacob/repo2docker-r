@@ -1,6 +1,7 @@
 install.packages('devtools')
 install.packages('BiocManager')
 install.packages('sets')
+library('BiocManager')
 require('devtools')
 install_version("ggplot2", version = "3.3.2", repos = "http://cran.us.r-project.org")
 
